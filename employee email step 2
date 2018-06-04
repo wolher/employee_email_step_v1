@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office">
+
+ <head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name=“x-apple-disable-message-reformatting”>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Employee Email - Welcome Email</title>
+	<!--<![endif]-->
+	<style type="text/css">
+		body{
+			width: 100%; 
+			margin: 0; 
+			padding: 0; 
+			background-color: #ffffff;
+			font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+			mso-line-height-rule: exactly;
+			-webkit-font-smoothing: antialiased; 
+			-ms-text-size-adjust: none !important;
+
+		}
+
+		/*table{ border: 1px solid red;}*/
+
+		table { border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; }
+		table td { border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; }
+
+		img { border: 0; -ms-interpolation-mode: bicubic; }
+		
+		@media only screen and (min-width: 1280px){	
+			.maxBodyWidth {width:600 !important;}
+			/*.heroHeightMobile {height:200px;};*/
+			.adjustForHeroImage{width:600px !important; height: 110px !important;}
+			.adjustBruceForMobile {width:236px !important;}
+			.adjustIconsForDesktop{width:32px !important;}
+			/*.adjustBruceForMobile {width:312px !important;}*/
+		}
+
+		@media only screen and (max-width: 1260px){	
+			.maxBodyWidth {width:600 !important;}
+			/*.heroHeightMobile {height:150px !important;};*/
+			.adjustForHeroImage{width:600px !important; height: 110px !important;}
+			.hideForMobile { display: none !important;}
+			.adjustBruceForMobile {width:236px !important;}
+			.adjustIconsForDesktop {width: 32px !important;}
+		}
+
+		@media only screen and (min-width: 600px)  {
+			.deviceWidth {width:48% !important;}
+			.adjustBruceForMobile {width:236px !important;}
+		}
+
+		@media only screen and (max-width: 640px)  {
+			.deviceWidth { width:100% !important; display:block !important; padding:0px !important;}
+			.hideForMobile { display: none !important;}
+			.mobileIconTables{width:48%}
+		}		
+
+		@media only screen and (max-width: 479px)  {
+			.hideForMobile { display: none !important;}
+			.deviceWidth { width:100% !important; display:block !important; padding:0px !important; text-align: center !important}
+			.adjustForHeroImage{width:396px !important; height: 73px !important;}
+			.mobileIconTables{width:48%}
+		}
+		</style>
+ </head>
+
+	<body class="maxBodyWidth">
+		<!-- Start: Preheader -->
+		
+		<div class="mktoText" id="Preheader" mktoName="Preheader">
+                <div style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:1px;color:#f6f7fb;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;" >
+                Test preheader text
+                </div>
+                <!-- End: Preheader -->	
+                <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->	
+        		<div style="display: none; max-height: 0px; overflow: hidden;">
+					&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+				</div>
+           </div>
+		<table width="100%" style="border-collapse:collapse; font-size: 14px; line-height: 17px;" class="maxBodyWidth">
+			<tr>
+				<td width="3%" height="0"></td>
+				<td width="51%"></td>
+				<td width="3%"></td>
+				<td width="40%"></td>
+				<td width="3%"></td>
+			</tr>
+			<!--hero-->
+			<tr>
+				<td width="100%" colspan="5" style="color:white; padding: 0px; margin:0px; text-align:left; background: #47268d; padding:30px 0px; font-size: 18px">
+					<!--<img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/hero_image_600.gif" alt="Your Adventure Starts Here" width="600px" class="adjustForHeroImage" align="center" style="padding:0px; margin:0px; text-align:center;"-->
+					<span style="margin-left:20px">YOUR FIRST MONTH</span>
+				</td>
+			</tr>
+			<!--white line-->
+			<tr>
+				<td width="3%" height="0"></td>
+				<td width="94%" colspan="3" style="padding: 20px 0px 10px 0px">
+					<table style="width:100%; border-collapse:collapse; display:block">
+						<tr>
+							<td style="width:50%">
+								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey <span style="background:yellow">{lead.First Name}</span>,<br><br>
+									Congratulations on finishing your first month at G Adventures!  We would love to hear about your experience so far.<br><br>Please take a few minutes to fill out a survey that will help us assess our Onboarding Program and if we are doing all we can to set you up for success. Your honest feedback will help us to continually improve the program. Approx. Time To Complete 10 minutes: 
+								</p>
+							</td>
+						</tr>
+					</table>
+					<a href="https://www.surveymonkey.com/r/GR68PDC" align="center" style="display:block; padding-top:15px; padding-bottom:15px; border-color:#ffffff; display:block; border: 1px solid #FFFFFF; color:#ffffff; text-decoration-line: none; margin-bottom:15px; cursor:pointer; background: #391e71" >
+					TAKE SURVEY >>
+					</a>	
+					  Kind regards, Global Talent
+					<br><br>			
+				</td>
+				<td width="3%"></td>
+			</tr>	
+			<!--first row-->
+			<!--purple line top-->		
+			<!--footer-->
+			<tr> 
+	          <td style="background: #47268d; padding:0px"></td> 
+	          <td colspan="3" style="padding:18px 0px 10px 0px; background: #47268d; border-collapse:collapse"> 
+	            
+	            <table width="40%" style="margin:24px 0px 10px 0px; float:left; border-collapse:collapse;"> 
+	              <tbody>
+	                <tr> 
+	                  <!--td width="30" height="60" style=" #fff; color:#ffffff; font-size:25px; text-align: center">0</td--> 
+	                  <!--td width="2px"></td--> 
+	                  <!--td width="20px" style=" #fff; color:#ffffff; font-size:25px; text-align: center">7</td--> 
+	                  <td style="padding-left:0px; color: #fff; font-size: 17px">YOUR ADVENTURE HAS BEGUN!</td> 
+	                </tr> 
+	              </tbody>
+	            </table> 
+	        	
+	            <table width="40%" style="float:right; border-collapse:collapse; margin:10px 0px 10px"> 
+	              <tbody>
+	                <tr> 
+	                  <td align="right"> <img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/gadventures_logo.gif" alt="G Adventures" width="200px"> </td> 
+	                </tr> 
+	              </tbody>
+	            </table> 
+	        	</td> 
+	          <td style="background: #47268d; padding:0px"></td> 
+	        </tr> 	
+		</table>
+	</body>
+</html>
