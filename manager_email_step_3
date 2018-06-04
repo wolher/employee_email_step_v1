@@ -86,7 +86,7 @@
 			</tr>
 			<tr>
 				<td width="100%" colspan="5" style="color:white; padding: 0px; margin:0px; text-align:left; background: #47268d; padding:30px 0px; font-size: 18px; text-align: center">
-					YOUR NEW HIRE STARTS IN 2 BUSINESS DAYS!
+					YOUR NEW HIRE STARTS IN 3 BUSINESS DAYS!
 				</td>
 			</tr>
 			<!--white line-->
@@ -96,8 +96,8 @@
 					<table style="width:100%; border-collapse:collapse; display:block">
 						<tr>
 							<td style="width:50%">
-								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey {lead.name},<br><br>
-								{new_hire_first_name} {new_hire_last_name} first day in the office will be on {month, dd, yy}.
+								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey {lead.manager name},<br><br>
+								{lead.name} {lead.last name} will be starting on {lead.start date}.
 							</td>
 						</tr>
 					</table>		
@@ -139,8 +139,8 @@
           				<li style="padding-top:8px; margin:0px; color:#000000;">
           					All communications have been sent:
           					<ul style="padding-top:8px; margin:0px; color:#000000;">
-          						<li>You’ve sent their G Nation announcement to your talent partner.</li>
-          						<li>You’ve sent a “Welcome To The Team” message to their personal email.</li>
+          						<li>You’ve sent their G Nation announcement to your Talent Partner.</li>
+          						<li>You’ve sent a “Welcome To The Team” message to your new hire's personal email.</li>
           					</ul>		          					
           				</li> 
           				<li style="padding-top:8px; margin:0px; color:#000000;">
@@ -169,10 +169,8 @@
 			<tr>
 				<td width="3%" style="background:#ffffff"></td>
 				<td width="94%" colspan="3" style="background: #ffffff; padding:0">
-					<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">Let’s show your newbie how we do onboarding the G way. Let’s not just manage their expectations, let’s far exceed them!
-					<br><br>
-					If you have any questions, feel free to reach out.<br><br>
-					Kind regards, Global Talent<br>
+					<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">Let’s do all that we can to ensure that your newbie is set up for success! If you have any questions, please do not hesitate to reach out to your Talent Partner. <br><br>
+					Kind regards, The Talent Agency<br>
 					</p>
 				</td>
 				<td width="3%" style="background:#ffffff"></td>
@@ -203,7 +201,7 @@
 	                  <!--td width="30" height="60" style="border:1px solid #fff; color:#ffffff; font-size:25px; text-align: center">0</td--> 
 	                  <!--td width="2px"></td--> 
 	                  <!--td width="20px" style="border:1px solid #fff; color:#ffffff; font-size:25px; text-align: center">7</td--> 
-	                  <td valign="middle" style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN HAS BEGUN</td> 
+	                  <td valign="middle" style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN CONTINUES...</td> 
 	                </tr> 
 	              </tbody>
 	            </table> 
