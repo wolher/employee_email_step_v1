@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office">
+
+ <head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name=“x-apple-disable-message-reformatting”>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Manager Email - Two business days prior to start date</title>
+	<!--<![endif]-->
+	<style type="text/css">
+		body{
+			width: 100%; 
+			margin: 0; 
+			padding: 0; 
+			background-color: #ffffff;
+			font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+			mso-line-height-rule: exactly;
+			-webkit-font-smoothing: antialiased; 
+			-ms-text-size-adjust: none !important;
+		}
+
+		table { border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; }
+		table td { border-collapse: collapse; mso-table-lspace: 0; mso-table-rspace: 0; }
+
+		img { border: 0; -ms-interpolation-mode: bicubic; }
+		
+		@media only screen and (min-width: 1280px){	
+			.maxBodyWidth {width:600 !important;}
+			.heroHeightMobile {height:200px;};
+			.adjustForHeroImage{width:600px !important; height: 110px !important;}
+			.adjustBruceForMobile {width:236px !important;}
+			.adjustIconsForDesktop{width:32px !important;}
+			/*.adjustBruceForMobile {width:312px !important;}*/
+		}
+
+		@media only screen and (max-width: 1260px){	
+			.maxBodyWidth {width:600 !important;}
+			.heroHeightMobile {height:150px !important;};
+			.hideForMobile { display: none !important;}
+			.adjustBruceForMobile {width:236px !important;}
+			.adjustIconsForDesktop {width: 32px !important;}
+			.adjustForHeroImage{width:400px!important; height: 72px !important;}
+		}
+
+		@media only screen and (min-width: 600px)  {
+			.deviceWidth {width:50% !important;}
+			.adjustBruceForMobile {width:236px !important;}
+		}
+
+		@media only screen and (max-width: 640px)  {
+			.deviceWidth { width:100% !important; display:block !important; padding:0px !important;}
+			.hideForMobile { display: none !important;}
+			.mobileIconTables{width:50%}
+		}		
+
+		@media only screen and (max-width: 479px)  {
+			.hideForMobile { display: none !important;}
+			.deviceWidth { width:100% !important; display:block !important; padding:0px !important;}
+			.mobileIconTables{width:50%}
+		}
+		</style>
+ </head>
+
+	<body class="maxBodyWidth">
+		<!-- Start: Preheader -->
+		<div class="mktoText" id="Preheader" mktoName="Preheader">
+                <div style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:1px;color:#f6f7fb;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;" >
+                Test preheader text
+                </div>
+                <!-- End: Preheader -->	
+                <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->	
+        		<div style="display: none; max-height: 0px; overflow: hidden;">
+					&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+				</div>
+           </div>
+		<table width="100%" style="border-collapse:collapse; font-size: 14px; line-height: 17px;" class="maxBodyWidth">
+			<tr>
+				<td width="3%" height="0"></td>
+				<td width="51%"></td>
+				<td width="3%"></td>
+				<td width="40%"></td>
+				<td width="3%"></td>
+			</tr>
+			<tr>
+				<td width="100%" colspan="5" style="color:white; padding: 0px; margin:0px; text-align:left; background: #47268d; padding:30px 0px; font-size: 18px; text-align: center">
+					YOUR NEW HIRE STARTS IN 2 BUSINESS DAYS!
+				</td>
+			</tr>
+			<!--white line-->
+			<tr>
+				<td width="3%" height="0"></td>
+				<td width="94%" colspan="3" style="padding: 20px 0px 10px 0px">
+					<table style="width:100%; border-collapse:collapse; display:block">
+						<tr>
+							<td style="width:50%">
+								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey {lead.name},<br><br>
+								{new_hire_first_name} {new_hire_last_name} first day in the office will be on {month, dd, yy}.
+							</td>
+						</tr>
+					</table>		
+				</td>
+				<td width="3%"></td>
+			</tr>	
+			<!--first row-->
+			<!--purple line-->		
+			<tr>
+				<td width="100%" colspan="5" height="1" style="background: #47268d; padding:0px"></td>
+			</tr>			
+			<tr>
+				<td width="3%" height="20" style="background: #f5f5f5"></td>
+				<td width="94%" colspan="3" valign="bottom" style="background: #f5f5f5; padding:0px">
+					<!--nested table left-->
+					<table width="100%" style="border-spacing: 0; border-collapse:collapse; float:left; background: #f5f5f5;" >
+						<!--Let's get you setup-->
+						<tr>
+							<td style="padding:0px">
+								<h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 16px 0px; margin: 15px 0px 0px 0px; color:#47268d">ONBOARDING CHECKLIST</h2>
+							</td>
+						</tr>
+					</table>
+					<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:8px;  padding-right:10px"> Hopefully, you’ve been able to check off most of the tasks on their <a href="https://rise.articulate.com/share/5e3joH5POnNzMgh0Btq2QDTznKubEbY5#/lessons/6VvItRxv-1xyLdWCsRjnRbpWcuHaDJZa?_k=7i7gbh">Pre-Day 1 Onboarding Prep Checklist</a> by now!<br><br>Please make sure that you’ve got the following checklist items covered:
+					</p>
+					<ol style="padding:0px 0px 16px 25px; margin:0px;">
+      					<li style="padding-top:10px; margin:0px; color:#000000;">
+        					Their laptop and workspace are set up and ready to go.
+        				</li>
+        				<li style="padding-top:8px;margin:0px;color:#000000;">
+        					You are clear on your expectations for the role and their probation goals.
+          				</li>  
+        				<li style="padding-top:8px;margin:0px;color:#000000;">
+          					Their team buddy and connection buddy have been prepped.
+          				</li> 
+          				<li style="padding-top:8px; margin:0px; color:#000000;">
+          					Their onboarding Trello board has been customized.
+          				</li>     
+          				<li style="padding-top:8px; margin:0px; color:#000000;">
+          					All communications have been sent:
+          					<ul style="padding-top:8px; margin:0px; color:#000000;">
+          						<li>You’ve sent their G Nation announcement to your talent partner.</li>
+          						<li>You’ve sent a “Welcome To The Team” message to their personal email.</li>
+          					</ul>		          					
+          				</li> 
+          				<li style="padding-top:8px; margin:0px; color:#000000;">
+          					You are ready to "wow" them with a spectacular, well organized and memorable first day in the office!	          					
+          				</li>  			          			
+			          </ol>						
+			          In case you need it, here is a handy link to the <a href="https://rise.articulate.com/share/5e3joH5POnNzMgh0Btq2QDTznKubEbY5#/?_k=zhbd3v">Onboarding Guide for Managers</a>.
+					<br><br>
+					<!--nested table right-->		
+				</td>
+				<td width="3%" style="background: #f5f5f5"></td>
+			</tr>
+			<!--purple line-->		
+			<tr>
+				<td width="100%" colspan="5" height="1" style="background: #47268d; padding:0px"></td>
+			</tr>
+			<!--white gap-->		
+			<tr>
+				<td width="100%" colspan="5" height="20" style="background: #ffffff; padding:0px"></td>
+			</tr>				
+			<!-- second row-->	
+			<!--white gap-->		
+		
+			<!--purple line-->		
+			
+			<tr>
+				<td width="3%" style="background:#ffffff"></td>
+				<td width="94%" colspan="3" style="background: #ffffff; padding:0">
+					<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">Let’s show your newbie how we do onboarding the G way. Let’s not just manage their expectations, let’s far exceed them!
+					<br><br>
+					If you have any questions, feel free to reach out.<br><br>
+					Kind regards, Global Talent<br>
+					</p>
+				</td>
+				<td width="3%" style="background:#ffffff"></td>
+			</tr>
+			<!--footer-->
+			<!--
+			<tr>
+				<td style="background: #47268d; padding:0px"></td>
+				<td colspan="3" style="padding:10px 0px 10px 10px; background: #47268d; border-collapse:collapse">
+					<table width="100%" align="center"style="text-align:center; border-collapse:collapse; margin:10px 0px 10px">
+						<tr>
+							<td align="center">
+								<img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/gadventures_logo.gif" alt="G Adventures" width="200px" >
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td style="background: #47268d; padding:0px"></td>
+			</tr>
+			-->
+	        <tr> 
+	          <td style="background: #47268d; padding:0px"></td> 
+	          <td colspan="3" style="padding:18px 0px 10px 0px; background: #47268d; border-collapse:collapse"> 
+	            
+	            <table width="40%" valign="middle" style="margin:20px 0px 10px 0px; float:left; border-collapse:collapse;"> 
+	              <tbody>
+	                <tr> 
+	                  <!--td width="30" height="60" style="border:1px solid #fff; color:#ffffff; font-size:25px; text-align: center">0</td--> 
+	                  <!--td width="2px"></td--> 
+	                  <!--td width="20px" style="border:1px solid #fff; color:#ffffff; font-size:25px; text-align: center">7</td--> 
+	                  <td valign="middle" style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN HAS BEGUN</td> 
+	                </tr> 
+	              </tbody>
+	            </table> 
+	        	
+	            <table width="40%" style="float:right; border-collapse:collapse; margin:10px 0px 10px"> 
+	              <tbody>
+	                <tr> 
+	                  <td align="right"> <img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/gadventures_logo.gif" alt="G Adventures" width="200px"> </td> 
+	                </tr> 
+	              </tbody>
+	            </table> 
+	        	</td> 
+	          <td style="background: #47268d; padding:0px"></td> 
+	        </tr> 		
+    	</table>
+	</body>
+</html>
