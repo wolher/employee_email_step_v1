@@ -102,7 +102,7 @@
 						<tr>
 							<td style="width:50%">
 								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey <span style="background:yellow">{First Name}</span>,<br><br>
-									Thanks for sending your signed contract; we’re excited to have you on board!<br><br>On behalf of the company and the Talent Agency, we welcome you to G Adventures. We have big plans, and are excited that you will be a part of it.
+									Thanks for sending your signed contract; we’re excited to have you on board.<br><br>On behalf of the company and the Talent Agency, we welcome you to G Adventures. We have big plans, and are excited that you will be a part of it!
 								</p>
 							</td>
 						</tr>
@@ -149,7 +149,7 @@
 								<p style="color:#000000;font-weight:normal;display:block;margin:0px 0px 0px 27px;text-align:left;padding:8px 0px 0px 0px;">In preparation for your start date, we kindly ask you to fill out the forms below.</p>
 								<ul style="padding-left:45px;padding-bottom:0px;margin:0px;">
                   					<li style="padding-top:10px;margin:0px;color:#000000;">
-                  						Complete by <span style="background:yellow">{month, dd, yyyy}</span>:<br>
+                  						Complete by <span style="background:yellow">{Month, dd, yyyy}</span>:<br>
                     					<a href="https://gadventures.wufoo.eu/forms/g-nation-sign-up/" style="color:#0000ff;display:inline;margin-top:0px;padding-bottom:0px;font-weight:normal; font-size: 12px; text-transform:uppercase">G Nation Sign Up</a>
                     				</li>
                     				<li style="padding-top:10px;margin:0px;color:#000000;">
@@ -205,7 +205,7 @@
 					<table width="25%" border="0" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
 						<tr>
 							<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_location.png" alt="Your meeting location" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; line-height:15px; color: black; vertical-align:top">LOCATION<br>Starbucks<br><a href="" style="display:block; text-decoration:none;color:#000000;border:none">370 King St W, Toronto</a><a href="https://goo.gl/maps/u5E9QdwAYa62">Google Maps</a>
+							<td width="20%" style="text-align:left; font-size:12px; line-height:15px; color: black; vertical-align:top">LOCATION<br>Starbucks<br><a href="https://goo.gl/maps/u5E9QdwAYa62" style="display:block">370 King St W<br>Toronto</a>
 							</td>
 						</tr>
 					</table>
@@ -223,14 +223,14 @@
 						<tr>
 							<!-- Contact meeting - look for the person with a shirt. change tie icon for a t-shirt-->
 							<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_contact.png" alt="Your contact" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">YOU WILL BE MEETING<span style="display:block; color:black; background: yellow">{Name of True Believer}</span></td>
+							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">YOU WILL BE MEETING<span style="display:block; color:black; background: yellow">{Name of True Believer}</span>Look for the person wearing a G Adventures t-shirt.</td>
 						</tr>
 					</table>
 					<!-- what to wear table-->
 					<table width="25%" style="text-align:center; float:left; border-collapse:collapse;" class="mobileIconTables">
 						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_dress.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual.<br> Wear comfortable shoes.</span></td>
+							<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/shirt_icon.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
+							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual<br> Wear comfortable shoes.</span></td>
 						</tr>
 					</table>
 				</td>
@@ -274,7 +274,7 @@
 					<table width="25%" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
 						<tr>
 							<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_location.png" alt="Your first day location" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; line-height:14px; color:black; vertical-align:top;">LOCATION<br>G Adventures<br>Base Camp<a href="" style="display:block; text-decoration:none;color:#000000;border:none">19 Charlotte St, Toronto</a><a href="https://goo.gl/maps/PDe3zuNMtj72">Google Maps</a>
+							<td width="20%" style="text-align:left; font-size:12px; line-height:14px; color:black; vertical-align:top;">LOCATION<br>G Adventures Base Camp<a href="https://goo.gl/maps/PDe3zuNMtj72" style="display:block;">19 Charlotte St<br> Toronto</a><!--<a href="https://goo.gl/maps/PDe3zuNMtj72">Google Maps</a>-->
 							</td>
 						</tr>
 					</table>
@@ -282,7 +282,7 @@
 					<table width="25%" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
 						<tr>
 							<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_arrival.png" alt="Your arrival date" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top; padding-left:5px">ARRIVAL<span style="display:block; color:black; background: yellow">{month, dd, yyyy}</span><span style="display:block; color:black; background: yellow">{start time}</span></td>						
+							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top; padding-left:5px">ARRIVAL<span style="display:block; color:black; background: yellow">{Month, dd, yyyy}</span><span style="display:block; color:black; background: yellow">{start time}</span></td>						
 						</tr>
 					</table>
 					<!--meeting table-->
@@ -295,7 +295,7 @@
 					<!--what to wear-->
 					<table width="25%" style="text-align:center; float:left; border-collapse:collapse; " class="mobileIconTables">
 						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_dress.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
+							<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/shirt_icon.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
 							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual</span></td>
 						</tr>
 					</table>
@@ -371,7 +371,7 @@
 	                  <!--td width="30" height="60" style=" #fff; color:#ffffff; font-size:25px; text-align: center">0</td--> 
 	                  <!--td width="2px"></td--> 
 	                  <!--td width="20px" style=" #fff; color:#ffffff; font-size:25px; text-align: center">7</td--> 
-	                  <td style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN BEGINS NOW</td> 
+	                  <td style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN BEGINS!</td> 
 	                </tr> 
 	              </tbody>
 	            </table> 
