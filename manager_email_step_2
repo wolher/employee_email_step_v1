@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name=“x-apple-disable-message-reformatting”>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Manager Email - Two business days prior to start date</title>
+	<title>Manager Email - One week prior to start date</title>
 	<!--<![endif]-->
 	<style type="text/css">
 		body{
@@ -86,7 +86,8 @@
 			</tr>
 			<tr>
 				<td width="100%" colspan="5" style="color:white; padding: 0px; margin:0px; text-align:left; background: #47268d; padding:30px 0px; font-size: 18px; text-align: center">
-					YOUR NEW HIRE STARTS IN 2 BUSINESS DAYS!
+					<!--<img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/hero_image_600.gif" alt="Your Adventure Starts Here" width="600px" class="adjustForHeroImage" align="center" style="padding:0px; margin:0px; text-align:center;"-->
+					YOUR NEW HIRE STARTS IN A WEEK!
 				</td>
 			</tr>
 			<!--white line-->
@@ -97,7 +98,7 @@
 						<tr>
 							<td style="width:50%">
 								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey {lead.name},<br><br>
-								{new_hire_first_name} {new_hire_last_name} first day in the office will be on {month, dd, yy}.
+								{new_hire_first_name} {new_hire_last_name}'s first day in the office will be on {month, dd, yyyy}.
 							</td>
 						</tr>
 					</table>		
@@ -121,30 +122,26 @@
 							</td>
 						</tr>
 					</table>
-					<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:8px;  padding-right:10px"> Hopefully, you’ve been able to check off most of the tasks on their <a href="https://rise.articulate.com/share/5e3joH5POnNzMgh0Btq2QDTznKubEbY5#/lessons/6VvItRxv-1xyLdWCsRjnRbpWcuHaDJZa?_k=7i7gbh">Pre-Day 1 Onboarding Prep Checklist</a> by now!<br><br>Please make sure that you’ve got the following checklist items covered:
+					<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:8px;  padding-right:10px"> Hopefully, you’ve been able to check off most of the tasks on their <a href="https://rise.articulate.com/share/5e3joH5POnNzMgh0Btq2QDTznKubEbY5#/lessons/6VvItRxv-1xyLdWCsRjnRbpWcuHaDJZa?_k=40g6ul">Pre-Day 1 Onboarding Prep Checklist</a> by now!<br><br>Please make sure your are well on your way with completing the following:
 					</p>
 					<ol style="padding:0px 0px 16px 25px; margin:0px;">
       					<li style="padding-top:10px; margin:0px; color:#000000;">
-        					Their laptop and workspace are set up and ready to go.
+        					Request hardware, software and workspace.
         				</li>
         				<li style="padding-top:8px;margin:0px;color:#000000;">
-        					You are clear on your expectations for the role and their probation goals.
+        					Prepare clear expectations and probation goals.
           				</li>  
         				<li style="padding-top:8px;margin:0px;color:#000000;">
-          					Their team buddy and connection buddy have been prepped.
+          					Coordinate with team & connection buddies.
           				</li> 
           				<li style="padding-top:8px; margin:0px; color:#000000;">
-          					Their onboarding Trello board has been customized.
+          					Customize a training plan and their onboarding Trello board. 
           				</li>     
           				<li style="padding-top:8px; margin:0px; color:#000000;">
-          					All communications have been sent:
-          					<ul style="padding-top:8px; margin:0px; color:#000000;">
-          						<li>You’ve sent their G Nation announcement to your talent partner.</li>
-          						<li>You’ve sent a “Welcome To The Team” message to their personal email.</li>
-          					</ul>		          					
+          					Inform team, G Nation & send welcome email.	          					
           				</li> 
           				<li style="padding-top:8px; margin:0px; color:#000000;">
-          					You are ready to "wow" them with a spectacular, well organized and memorable first day in the office!	          					
+          					Prepare for their first day in the office.	          					
           				</li>  			          			
 			          </ol>						
 			          In case you need it, here is a handy link to the <a href="https://rise.articulate.com/share/5e3joH5POnNzMgh0Btq2QDTznKubEbY5#/?_k=zhbd3v">Onboarding Guide for Managers</a>.
@@ -169,9 +166,8 @@
 			<tr>
 				<td width="3%" style="background:#ffffff"></td>
 				<td width="94%" colspan="3" style="background: #ffffff; padding:0">
-					<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">Let’s show your newbie how we do onboarding the G way. Let’s not just manage their expectations, let’s far exceed them!
+					<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">Let’s do all that we can to ensure that your newbie is set up for success! If you have any questions, please do not hesitate to reach out to your Talent Partner.
 					<br><br>
-					If you have any questions, feel free to reach out.<br><br>
 					Kind regards, Global Talent<br>
 					</p>
 				</td>
@@ -197,13 +193,13 @@
 	          <td style="background: #47268d; padding:0px"></td> 
 	          <td colspan="3" style="padding:18px 0px 10px 0px; background: #47268d; border-collapse:collapse"> 
 	            
-	            <table width="40%" valign="middle" style="margin:20px 0px 10px 0px; float:left; border-collapse:collapse;"> 
+	            <table width="40%" style="margin:22px 0px 10px 0px; float:left; border-collapse:collapse"> 
 	              <tbody>
 	                <tr> 
 	                  <!--td width="30" height="60" style="border:1px solid #fff; color:#ffffff; font-size:25px; text-align: center">0</td--> 
 	                  <!--td width="2px"></td--> 
 	                  <!--td width="20px" style="border:1px solid #fff; color:#ffffff; font-size:25px; text-align: center">7</td--> 
-	                  <td valign="middle" style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN HAS BEGUN</td> 
+	                  <td style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN CONTINUES...</td> 
 	                </tr> 
 	              </tbody>
 	            </table> 
