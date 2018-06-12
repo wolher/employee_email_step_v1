@@ -14,7 +14,8 @@
 		body{
 			width: 100%; 
 			margin: 0; 
-			padding: 0; 
+			padding: 0;
+			padding-top:20px; 
 			background-color: #ffffff;
 			font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 			mso-line-height-rule: exactly;
@@ -30,362 +31,276 @@
 
 		img { border: 0; -ms-interpolation-mode: bicubic; }
 		
-		@media only screen and (min-width: 1280px){	
-			.maxBodyWidth {width:600 !important;}
-			/*.heroHeightMobile {height:200px;};*/
-			.adjustForHeroImage{width:600px !important; height: 110px !important;}
-			.adjustBruceForMobile {width:236px !important;}
-			.adjustIconsForDesktop{width:32px !important;}
-			/*.adjustBruceForMobile {width:312px !important;}*/
-		}
-
-		@media only screen and (max-width: 1260px){	
-			.maxBodyWidth {width:600 !important;}
-			/*.heroHeightMobile {height:150px !important;};*/
-			.adjustForHeroImage{width:600px !important; height: 110px !important;}
-			.hideForMobile { display: none !important;}
-			.adjustBruceForMobile {width:236px !important;}
-			.adjustIconsForDesktop {width: 32px !important;}
-		}
-
-		@media only screen and (min-width: 600px)  {
-			.deviceWidth {width:48% !important;}
-			.adjustBruceForMobile {width:236px !important;}
-		}
-
 		@media only screen and (max-width: 640px)  {
-			.deviceWidth { width:100% !important; display:block !important; padding:0px !important;}
-			.hideForMobile { display: none !important;}
-			.mobileIconTables{width:48%}
+			/*.mobileIconTables{width:48% }*/
+			.maxBodyWidth{
+				width: 600px !important;
+				margin: 0px auto !important;
+				/*text-align: center;*/
+			}
 		}		
 
 		@media only screen and (max-width: 479px)  {
+			.maxBodyWidth{
+				width: 100% !important;
+			}
 			.hideForMobile { display: none !important;}
-			.deviceWidth { width:100% !important; display:block !important; padding:0px !important; text-align: center !important}
 			.adjustForHeroImage{width:396px !important; height: 73px !important;}
-			.mobileIconTables{width:48%}
+			.mobileIconTables{width:48% !important}
 		}
 		</style>
  </head>
 
-	<body class="maxBodyWidth">
+	<body style="background:#f5f5f5">
 		<!-- Start: Preheader -->
-		
-		<div class="mktoText" id="Preheader" mktoName="Preheader">
-                <div style="font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:1px;color:#f6f7fb;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;" >
-                Test preheader text
-                </div>
-                <!-- End: Preheader -->	
-                <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->	
-        		<div style="display: none; max-height: 0px; overflow: hidden;">
-					&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
-				</div>
-           </div>
-		<table width="100%" style="border-collapse:collapse; font-size: 14px; line-height: 17px;" class="maxBodyWidth">
+		<table class="maxBodyWidth" style="margin:0 auto;background: #fff">
 			<tr>
-				<td width="3%" height="0"></td>
-				<td width="51%"></td>
-				<td width="3%"></td>
-				<td width="40%"></td>
-				<td width="3%"></td>
-			</tr>
-			<tr>
-				<td width="100%" colspan="5" style="padding: 0px; margin:0px; text-align:center; background: #47268d" class="heroHeightMobile">
-					<img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/hero_image_600_with_margins.gif" alt="Your Adventure Starts Here" width="600px" class="adjustForHeroImage" align="center" style="padding:0px; margin:0px; text-align:center;">
-				</td>
-			</tr>
-			<!--white line -->
-			<tr>
-				<td width="3%" height="0"></td>
-				<td width="94%" colspan="3" style="padding: 20px 0px 10px 0px">
-					<table style="width:100%; border-collapse:collapse; display:block">
+				<td>
+					<!--inner tabel with content-->
+					<table width="100%" style="border-collapse:collapse; font-size: 14px; line-height: 17px;" class="maxBodyWidth">
 						<tr>
-							<td style="width:50%">
-								<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey <span style="background:yellow">{First Name}</span>,<br><br>
-									Thanks for sending your signed contract; we’re excited to have you on board.<br><br>On behalf of the company and the Talent Agency, we welcome you to G Adventures. We have big plans, and are excited that you will be a part of it!
-								</p>
+							<td width="3%" height="0"></td>
+							<td width="51%"></td>
+							<td width="3%"></td>
+							<td width="40%"></td>
+							<td width="3%"></td>
+						</tr>
+						<tr>
+							<td colspan="5" style="padding:0px; margin:0px; text-align:center; background:#47268d">
+								<img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/hero_image_600_with_margins.gif" alt="Your Adventure Starts Here" width="600px" class="adjustForHeroImage" align="center" style="padding:0px; margin:0px; text-align:center;">
 							</td>
 						</tr>
-					</table>
-
-					<!--
-					<table style="width:40%; height:100%; border-collapse:collapse; float:left" class="hideForMobile">
 						<tr>
-							<td style="background:red">
-								&nbsp;
-							</td>
-						</tr>
-					</table>					
-					-->
-					<!--a href="#" style="text-align:center; display:block; padding-top:15px; padding-bottom:15px; border-color:#ffffff; display:block; color:#ffffff; text-decoration-line: none; margin-bottom:15px; cursor:pointer; width:100%; background: #47268d;" >
-					WATCH BRUCE WELCOME VIDEO
-					</a-->				
-				</td>
-				<td width="3%"></td>
-			</tr>	
-			<!--first row-->
-			<!--purple line top-->		
-			<tr>
-				<td width="100%" colspan="5" style="padding:0px; margin:0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #47268d; height:1px"></td>
-			</tr>			
-			<tr>
-				<td width="3%" height="20" style="background: #f5f5f5"></td>
-				<td width="94%" colspan="3" valign="bottom" style="background: #f5f5f5; padding:0px">
-					<!--nested table left-->
-					<table width="100%" style="border-spacing: 0; border-collapse:collapse; float:left; background: #f5f5f5;" >
-						<!--Let's get you setup-->
-						<tr>
-							<td style="padding:0px">
-								<table width="100%" border="0" style="border-collapse:collapse; margin-top:0px;">
+							<td width="3%" height="0"></td>
+							<td width="94%" colspan="3" style="padding: 20px 0px 10px 0px">
+								<table style="width:100%; border-collapse:collapse; display:block">
 									<tr>
-										<td width="10" height="42" style="width:20px; padding:0px; text-align:center; color:#fff; font-size:15px; line-height:16px; background:#47268d">
-											<h2 style="padding:0px; margin:0px; font-size:18px;">1</h2>
+										<td style="width:50%">
+											<p style="color:black; font-weight: normal; display:block; margin:0px; padding-bottom:14px;  padding-right:10px">Hey <span style="background:yellow">{First Name}</span>,<br><br>
+												Thanks for sending your signed contract; we’re excited to have you on board!<br><br>On behalf of the company and the Talent Agency, we welcome you to G Adventures. We have big plans, and are excited that you will be a part of it.
+											</p>
 										</td>
-										<td width="5"></td>
-										<td valign="bottom" style="color:#47268d; font-weight: normal; display:block; margin:0px; padding:0px; font-weight:bold; vertical-align: bottom"><h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 0px 0px; margin: 15px 0px 0px 0px">LET'S GET YOU SETUP</h2>
+									</tr>
+								</table>			
+							</td>
+							<td width="3%"></td>
+						</tr>
+						<tr>
+							<td width="100%" colspan="5" style="padding:0px; margin:0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #47268d; height:1px"></td>
+						</tr>
+						<tr>
+							<td width="3%" height="20" style="background: #eee"></td>
+							<td width="94%" colspan="3" valign="bottom" style="background: #eee; padding:0px">
+							<!--nested table left-->
+								<table width="100%" style="border-spacing: 0; border-collapse:collapse; float:left; background: #eee;" >
+									<!--Let's get you setup-->
+									<tr>
+										<td style="padding:0px">
+											<table width="100%" border="0" style="border-collapse:collapse; margin-top:0px;">
+												<tr>
+													<td width="10" height="42" style="width:20px; padding:0px; text-align:center; color:#fff; font-size:15px; line-height:16px; background:#47268d">
+														<h2 style="padding:0px; margin:0px; font-size:18px;">1</h2>
+													</td>
+													<td width="5"></td>
+													<td valign="bottom" style="color:#47268d; font-weight: normal; display:block; margin:0px; padding:0px; font-weight:bold; vertical-align: bottom"><h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 0px 0px; margin: 15px 0px 0px 0px">LET'S GET YOU SETUP</h2>
+													</td>
+												</tr>
+											</table>
+											<p style="color:#000000;font-weight:normal;display:block;margin:0px 0px 0px 27px;text-align:left;padding:8px 0px 0px 0px;">In preparation for your start date, we kindly ask you to fill out the forms below.</p>
+											<ul style="padding-left:45px;padding-bottom:0px;margin:0px;">
+			                  					<li style="padding-top:10px;margin:0px;color:#000000;">
+			                  						Complete by <span style="background:yellow">{month, dd, yyyy}</span>:<br>
+			                    					<a href="https://gadventures.wufoo.eu/forms/g-nation-sign-up/" style="color:#0000ff;display:inline;margin-top:0px;padding-bottom:0px;font-weight:normal; font-size: 12px; text-transform:uppercase">G Nation Sign Up</a>
+			                    				</li>
+			                    				<li style="padding-top:10px;margin:0px;color:#000000;">
+			                    					Complete these forms and bring them on your first day:<br>
+			                      					<a href="https://drive.google.com/open?id=1-G4E0EicmPRKLbjBvxKo9oCqm3sDIOcA" style="color:#0000ff;margin-top:0px;padding-bottom:0px;font-weight:normal;font-size: 12px; text-transform:uppercase ">Provincial Tax Form</a><br><a href="https://drive.google.com/open?id=1-Do6jXXX8cnflLa3MGlRi7xFVyuuO9P9" style="color:#0000ff;margin-top:0px;padding-bottom:0px;font-weight:normal;font-size: 12px; text-transform:uppercase ">Federal Tax Form</a><br><a href="https://drive.google.com/open?id=1-NKGZB_bBuj00ymju7pc06trWLFOZIf-" style="color:#0000ff;margin-top:0px;padding-bottom:0px;font-weight:normal;font-size: 12px; text-transform:uppercase ">Benefits Enrollment Form</a>
+			                      				</li>                     			
+			                      			</ul>
+
+			                    		<p style="color:#000000;font-weight:normal;display:block;margin:0px 0px 0px 27px;text-align:left;padding:16px 0px 0px 0px;">Please rest assured that your personal information is secure and confidential and will be kept in your talent file.</p>
+			                    		<br>								
 										</td>
 									</tr>
 								</table>
-								<p style="color:#000000;font-weight:normal;display:block;margin:0px 0px 0px 27px;text-align:left;padding:8px 0px 0px 0px;">In preparation for your start date, we kindly ask you to fill out the forms below.</p>
-								<ul style="padding-left:45px;padding-bottom:0px;margin:0px;">
-                  					<li style="padding-top:10px;margin:0px;color:#000000;">
-                  						Complete by <span style="background:yellow">{Month, dd, yyyy}</span>:<br>
-                    					<a href="https://gadventures.wufoo.eu/forms/g-nation-sign-up/" style="color:#0000ff;display:inline;margin-top:0px;padding-bottom:0px;font-weight:normal; font-size: 12px; text-transform:uppercase">G Nation Sign Up</a>
-                    				</li>
-                    				<li style="padding-top:10px;margin:0px;color:#000000;">
-                    					Complete these forms and bring them on your first day:<br>
-                      					<a href="https://drive.google.com/open?id=1-G4E0EicmPRKLbjBvxKo9oCqm3sDIOcA" style="color:#0000ff;margin-top:0px;padding-bottom:0px;font-weight:normal;font-size: 12px; text-transform:uppercase ">Provincial Tax Form</a><br><a href="https://drive.google.com/open?id=1-Do6jXXX8cnflLa3MGlRi7xFVyuuO9P9" style="color:#0000ff;margin-top:0px;padding-bottom:0px;font-weight:normal;font-size: 12px; text-transform:uppercase ">Federal Tax Form</a><br><a href="https://drive.google.com/open?id=1-NKGZB_bBuj00ymju7pc06trWLFOZIf-" style="color:#0000ff;margin-top:0px;padding-bottom:0px;font-weight:normal;font-size: 12px; text-transform:uppercase ">Benefits Enrollment Form</a>
-                      				</li>                     			
-                      			</ul>
+							</td>
+							<td width="3%" style="background: #eee"></td>
+						</tr>
+						<tr>
+							<td width="100%" colspan="5" style="padding:0px; margin:0px; border-top-width: 1px; border-top-color: #47268d; border-top-style: solid"><br></td>
+						</tr>
+ 						<tr>
+							<td width="100%" colspan="5" style="padding:0px; margin:0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #47268d; height:1px"></td>
+						</tr>
+						<tr> 
+							<td width="3%" style="background: #eee"></td>
+							<td width="94%" colspan="3" style="background: #eee; padding:0px 0px 18px 0px">
+								<!--content-->
+								<table width="100%" border="0" style="border-collapse:collapse; margin-top:0px;">
+									<tr>
+										<td width="10" height="42" style="width:20px; padding:0px; text-align:center; color:#fff; font-size:15px; line-height:16px; background:#47268d">
+											<h2 style="padding:0px; margin:0px; font-size:18px;">2</h2>
+										</td>
+										<td width="5"></td>
+										<td valign="bottom" style="color:#47268d; font-weight: normal; display:block; margin:0px; padding:0px; font-weight:bold; vertical-align: bottom"><h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 0px 0px; margin: 15px 0px 0px 0px">WELCOME MEETING</h2>
+										</td>
+									</tr>
+								</table>
+								<table width="100%" style="border-collapse:collapse; margin-top:0px; margin-bottom: 15px">
+									<tr>
+										<td width="100%" height="0" colspan="3" style="text-align:center">
+											<p style="color:black; font-weight: normal; display:block; padding:0px; margin:0px 0px 0px 27px; text-align:left;">Before your first day in the office, you will spend a day experiencing the culture at G Adventures and learn why this is such a great place to work. 
+											</p>
+										</td>
+									</tr>
+								</table>
+								<!-- location table-->
+								<table width="25%" border="0" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
+									<tr>
+										<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_location.png" alt="Your meeting location" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; line-height:15px; color: black; vertical-align:top">LOCATION<br>Starbucks<br><a href="" style="display:block; text-decoration:none;color:#000000;border:none">370 King St W, Toronto</a><a href="https://goo.gl/maps/u5E9QdwAYa62">Google Maps</a>
+										</td>
+									</tr>
+								</table>
+								<!-- time table-->
+								<table width="25%" border="0" style="text-align:center; float:left; border-collapse:collapse; vertical-align:top; margin-bottom:24px; " class="mobileIconTables">
+									<tr>
+										<!--Welcome meeting-->
+										<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_arrival.png" alt="Your arrival time" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top; padding-left:5px; ">ARRIVAL<span style="display:block; background:yellow;">{Month, dd, yyyy}</span>
+											<span style="display:block; color:black;">10 AM</span></td>
+									</tr>
+								</table>
+								<!-- contact table-->
+								<table width="25%" style="text-align:center; float:left; border-collapse:collapse; vertical-align:top; " class="mobileIconTables">
+									<tr>
+										<!-- Contact meeting - look for the person with a shirt. change tie icon for a t-shirt-->
+										<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_contact.png" alt="Your contact" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">YOU WILL BE MEETING<span style="display:block; color:black; background: yellow">{Name of True Believer}</span></td>
+									</tr>
+								</table>
+								<!-- what to wear table-->
+								<table width="25%" style="text-align:center; float:left; border-collapse:collapse;" class="mobileIconTables">
+									<tr>
+										<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_dress.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual.<br> Wear comfortable shoes.</span></td>
+									</tr>
+								</table>
+							</td>
+							<td width="3%" style="background:#eee"></td>
+						</tr>
+						<tr>
+							<td width="100%" colspan="5" style="padding:0px; margin:0px; border-top-width: 1px; border-top-color: #47268d; border-top-style: solid; border-bottom-width: 1px; border-bottom-color: #47268d; border-bottom-style: solid"><br></td>
+						</tr>
+						<tr>
+							<td width="3%" style="background: #eee"></td>
+							<td width="94%" colspan="3" style="background: #eee; padding:0">
+								<!--content-->
+								<table width="100%" border="0" style="border-collapse:collapse; margin-top:0px">
+									<tr>
+										<td width="10" height="42" style="width:20px; padding:0px; text-align:center; color:#fff; font-size:15px; line-height:16px; background:#47268d">
+											<h2 style="padding:0px; margin:0px; font-size:18px;">3</h2>
+										</td>
+										<td width="5"></td>
+										<td valign="bottom" style="color:#47268d; font-weight: normal; display:block; margin:0px; padding:0px; font-weight:bold; vertical-align: bottom"><h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 0px 0px; margin: 15px 0px 0px 0px">YOUR ADVENTURE BEGINS</h2>
+										</td>
+									</tr>
+								</table>
+								<table width="100%" style="border-collapse:collapse; margin-top:0px">
+									<tr>
+										<td width="100%" height="0" colspan="3" style="text-align:center">
+											<!--reporting office will feed my.location var-->
+											<p style="color:black; font-weight: normal; display:block; margin:0px 0px 15px 27px; text-align:left; padding: 0px">Your first day in the office will be at Base Camp. In addition to the completed forms, please bring your SIN card and banking information (void cheque or direct deposit form from your bank).
+											</p>
+										</td>
+									</tr>
+								</table>
+								<table width="25%" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
+									<tr>
+										<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_location.png" alt="Your first day location" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; line-height:14px; color:black; vertical-align:top;">LOCATION<br>G Adventures<br>Base Camp<a href="" style="display:block; text-decoration:none;color:#000000;border:none">19 Charlotte St, Toronto</a><a href="https://goo.gl/maps/PDe3zuNMtj72">Google Maps</a>
+										</td>
+									</tr>
+								</table>
+								<table width="25%" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
+									<tr>
+										<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_arrival.png" alt="Your arrival date" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top; padding-left:5px">ARRIVAL<span style="display:block; color:black; background: yellow">{month, dd, yyyy}</span><span style="display:block; color:black; background: yellow">{start time}</span></td>						
+									</tr>
+								</table>
+								<table width="25%" style="text-align:center; float:left; border-collapse:collapse; vertical-align:top; " class="mobileIconTables">
+									<tr>
+										<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_contact.png" alt="Your first day contact" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">YOU WILL BE MEETING<span style="display:block; color:black; background: yellow">{Name of Manager}</span></td>
+									</tr>
+								</table>
+								<table width="25%" style="text-align:center; float:left; border-collapse:collapse; " class="mobileIconTables">
+									<tr>
+										<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_dress.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
+										<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual</span></td>
+									</tr>
+								</table>
 
-                    		<p style="color:#000000;font-weight:normal;display:block;margin:0px 0px 0px 27px;text-align:left;padding:16px 0px 0px 0px;">Please rest assured that your personal information is secure and confidential and will be kept in your talent file.</p>
-                    		<br>								
 							</td>
+							<td width="3%" style="background:#eee"></td>
 						</tr>
-					</table>
-					<!--nested table right-->		
-				</td>
-				<td width="3%" style="background: #f5f5f5"></td>
-			</tr>
-			<!--purple line bottom-->
-			<!--gap-->
-			<tr>
-				<td width="100%" colspan="5" style="padding:0px; margin:0px; border-top-width: 1px; border-top-style: solid; border-top-color: #47268d; height:1px"></td>
-				<td width="100%" colspan="5"><br></td>
-			</tr>
-			<!-- second row-->
-			<!--purple line top-->		
-			<tr>
-				<td width="100%" colspan="5" style="padding:0px; margin:0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #47268d; height:1px"></td>
-			</tr>			
-			<!--welcome meeting-->
-			<tr> 
-				<td width="3%" style="background: #f5f5f5"></td>
-				<td width="94%" colspan="3" style="background: #f5f5f5; padding:0px 0px 18px 0px">
-					<!--content-->
-					<table width="100%" border="0" style="border-collapse:collapse; margin-top:0px;">
 						<tr>
-							<td width="10" height="42" style="width:20px; padding:0px; text-align:center; color:#fff; font-size:15px; line-height:16px; background:#47268d">
-								<h2 style="padding:0px; margin:0px; font-size:18px;">2</h2>
+							<td width="100%" colspan="5" style="padding:0px; margin:0px; border-top-width: 1px; border-top-style: solid; border-top-color: #47268d; height:1px"><br></td>
+						</tr>
+					<!--picture-->
+						<tr>
+							<td width="100%" colspan="5" height="1" style="background: #fff">
+							<table width="100%">
+									<tr>
+										<td height="220" style="width:800px; background: url('http://letsgo.gadventures.com/rs/110-AIL-152/images/profit_magazine_v6.png') center top  no-repeat">
+											
+								</table>
 							</td>
-							<td width="5"></td>
-							<td valign="bottom" style="color:#47268d; font-weight: normal; display:block; margin:0px; padding:0px; font-weight:bold; vertical-align: bottom"><h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 0px 0px; margin: 15px 0px 0px 0px">WELCOME MEETING</h2>
+						</tr>			
+						<tr>
+							<td width="3%" style="background:#ffffff"></td>
+							<td width="94%" colspan="3" style="background: #ffffff; padding:0">
+								<table width="100%" style="border-collapse:collapse; margin-top:15px">
+									<tr>
+										<td width="100%" height="0" colspan="3" style="text-align:center">
+											<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">If you have any questions, please do not hesitate to contact us, the Global Talent team. 
+											<br>
+											<br>
+											Kind regards,
+											Global Talent
+											</p>
+										</td>
+									</tr>
+								</table>
 							</td>
+							<td width="3%" style="background:#ffffff"></td>
 						</tr>
-					</table>
-					<table width="100%" style="border-collapse:collapse; margin-top:0px; margin-bottom: 15px">
-						<tr>
-							<td width="100%" height="0" colspan="3" style="text-align:center">
-								<p style="color:black; font-weight: normal; display:block; padding:0px; margin:0px 0px 0px 27px; text-align:left;">Before your first day in the office, you will spend a day experiencing the culture at G Adventures and learn why this is such a great place to work. 
-								</p>
-							</td>
-						</tr>
-					</table>
-					<!-- location table-->
-					<table width="25%" border="0" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
-						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_location.png" alt="Your meeting location" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; line-height:15px; color: black; vertical-align:top">LOCATION<br>Starbucks<br><a href="https://goo.gl/maps/u5E9QdwAYa62" style="display:block">370 King St W<br>Toronto</a>
-							</td>
-						</tr>
-					</table>
-					<!-- time table-->
-					<table width="25%" border="0" style="text-align:center; float:left; border-collapse:collapse; vertical-align:top; margin-bottom:24px; " class="mobileIconTables">
-						<tr>
-							<!--Welcome meeting-->
-							<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_arrival.png" alt="Your arrival time" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top; padding-left:5px; ">ARRIVAL<span style="display:block; background:yellow;">{Month, dd, yyyy}</span>
-								<span style="display:block; color:black;">10 AM</span></td>
-						</tr>
-					</table>
-					<!-- contact table-->
-					<table width="25%" style="text-align:center; float:left; border-collapse:collapse; vertical-align:top; " class="mobileIconTables">
-						<tr>
-							<!-- Contact meeting - look for the person with a shirt. change tie icon for a t-shirt-->
-							<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_contact.png" alt="Your contact" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">YOU WILL BE MEETING<span style="display:block; color:black; background: yellow">{Name of True Believer}</span>Look for the person wearing a G Adventures t-shirt.</td>
-						</tr>
-					</table>
-					<!-- what to wear table-->
-					<table width="25%" style="text-align:center; float:left; border-collapse:collapse;" class="mobileIconTables">
-						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/shirt_icon.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual<br> Wear comfortable shoes.</span></td>
-						</tr>
-					</table>
-				</td>
-				<td width="3%" style="background:#f5f5f5"></td>
-			</tr>
-			<!--gap-->
-			<tr>
-				<td width="100%" colspan="5" style="padding:0px; margin:0px; border-top-width: 1px; border-top-style: solid; border-top-color: #47268d; height:1px"></td>
-				<td width="100%" colspan="5"><br></td>
-			</tr>
-			<!--purple line top-->		
-			<tr>
-				<td width="100%" colspan="5" style="padding:0px; margin:0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #47268d; height:1px"></td>
-			</tr>
-			<!--icons table-->	
-			<tr>
-				<td width="3%" style="background: #f5f5f5"></td>
-				<td width="94%" colspan="3" style="background: #f5f5f5; padding:0">
-					<!--content-->
-					<table width="100%" border="0" style="border-collapse:collapse; margin-top:0px">
-						<tr>
-							<td width="10" height="42" style="width:20px; padding:0px; text-align:center; color:#fff; font-size:15px; line-height:16px; background:#47268d">
-								<h2 style="padding:0px; margin:0px; font-size:18px;">3</h2>
-							</td>
-							<td width="5"></td>
-							<td valign="bottom" style="color:#47268d; font-weight: normal; display:block; margin:0px; padding:0px; font-weight:bold; vertical-align: bottom"><h2 style="font-size:16px; vertical-align: bottom; padding:0px 0px 0px 0px; margin: 15px 0px 0px 0px">YOUR ADVENTURE BEGINS</h2>
-							</td>
-						</tr>
-					</table>
-					<table width="100%" style="border-collapse:collapse; margin-top:0px">
-						<tr>
-							<td width="100%" height="0" colspan="3" style="text-align:center">
-								<!--reporting office will feed my.location var-->
-								<p style="color:black; font-weight: normal; display:block; margin:0px 0px 15px 27px; text-align:left; padding: 0px">Your first day in the office will be at Base Camp. In addition to the completed forms, please bring your SIN card and banking information (void cheque or direct deposit form from your bank).
-								</p>
-							</td>
-						</tr>
-					</table>
-					<!--content-->
-					<!-- location table-->
-					<table width="25%" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
-						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_location.png" alt="Your first day location" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; line-height:14px; color:black; vertical-align:top;">LOCATION<br>G Adventures Base Camp<a href="https://goo.gl/maps/PDe3zuNMtj72" style="display:block;">19 Charlotte St<br> Toronto</a><!--<a href="https://goo.gl/maps/PDe3zuNMtj72">Google Maps</a>-->
-							</td>
-						</tr>
-					</table>
-					<!--arrival table-->
-					<table width="25%" style="text-align:center; float:left; margin-bottom:24px; " class="mobileIconTables">
-						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align:top;"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_arrival.png" alt="Your arrival date" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top; padding-left:5px">ARRIVAL<span style="display:block; color:black; background: yellow">{Month, dd, yyyy}</span><span style="display:block; color:black; background: yellow">{start time}</span></td>						
-						</tr>
-					</table>
-					<!--meeting table-->
-					<table width="25%" style="text-align:center; float:left; border-collapse:collapse; vertical-align:top; " class="mobileIconTables">
-						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align:top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/icon_contact.png" alt="Your first day contact" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">YOU WILL BE MEETING<span style="display:block; color:black; background: yellow">{Name of Manager}</span></td>
-						</tr>
-					</table>
-					<!--what to wear-->
-					<table width="25%" style="text-align:center; float:left; border-collapse:collapse; " class="mobileIconTables">
-						<tr>
-							<td width="4%" style="height:80px; text-align:right; vertical-align: top"><img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/shirt_icon.png" alt="Your dress" width="80%" class="adjustIconsForDesktop"></td>
-							<td width="20%" style="text-align:left; font-size:12px; color: black; vertical-align:top">WHAT TO WEAR<span style="display:block; color:black">Dress casual</span></td>
-						</tr>
+						<tr> 
+				          <td style="background: #47268d; padding:0px"></td> 
+				          <td colspan="3" style="padding:18px 0px 10px 0px; background: #47268d; border-collapse:collapse"> 
+				            
+				            <table width="50%" style="margin:0px 0px 10px 0px; float:left; border-collapse:collapse" class="mobileIconTables"> 
+				              <tbody>
+				                <tr> 
+				                  <td style="padding-left:0px; color: #fff; font-size: 17px"><p>THE COUNTDOWN BEGINS NOW</p></td> 
+				                </tr> 
+				              </tbody>
+				            </table> 
+				        	
+				            <table width="40%" style="float:right; border-collapse:collapse; margin:10px 0px 10px" class="mobileIconTables"> 
+				              <tbody>
+				                <tr> 
+				                  <td align="right"> <img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/gadventures_logo.gif" alt="G Adventures" width="100%"> </td> 
+				                </tr> 
+				              </tbody>
+				            </table> 
+				        	</td> 
+				          <td style="background: #47268d; padding:0px"></td> 
+				        </tr> 						
 					</table>
 
 				</td>
-				<td width="3%" style="background:#f5f5f5"></td>
 			</tr>
-			<!--purple line bottom-->		
-			<!--gap-->
-			<tr>
-				<td width="100%" colspan="5" style="padding:0px; margin:0px; border-top-width: 1px; border-top-style: solid; border-top-color: #47268d; height:1px"></td>
-				<td width="100%" colspan="5"><br></td>
-			</tr>
-			<!--picture-->
-			<tr>
-				<td width="100%" colspan="5" height="1" style="background: #fff">
-				<table width="100%">
-						<tr>
-							<td height="220" style="width:800px; background: url('http://letsgo.gadventures.com/rs/110-AIL-152/images/profit_magazine_v6.png') center top  no-repeat">
-								
-					</table>
-				</td>
-			</tr>			
-			<tr>
-				<td width="3%" style="background:#ffffff"></td>
-				<td width="94%" colspan="3" style="background: #ffffff; padding:0">
-					<table width="100%" style="border-collapse:collapse; margin-top:15px">
-						<tr>
-							<td width="100%" height="0" colspan="3" style="text-align:center">
-								<p style="color:black; font-weight: normal; display:block; margin:0px; text-align:left; padding-bottom:15px;">If you have any questions, please do not hesitate to contact us, the Global Talent team. 
-								<br>
-								<br>
-								Kind regards,
-								Global Talent
-								</p>
-							</td>
-						</tr>
-					</table>
-				</td>
-				<td width="3%" style="background:#ffffff"></td>
-			</tr>
-			<!--footer-->
-			<!--
-			<tr>
-
-				<td style="background: #47268d; padding:0px"></td>
-				<td colspan="3" style="padding:10px 0px 10px 10px; background: #47268d; border-collapse:collapse">
-					<table width="60%" style="float:left; text-align:center; border-collapse:collapse; margin:10px 0px 10px">
-						<tr>
-							<td align="right" valign="top" style="text-align:left; padding:18px 0px 10px 10px; font-style: 20px; color: white" >
-								THE COUNTDOWN BEGINS NOW
-							</td>
-						</tr>
-					</table>					
-					<table width="30%" style="float:right; text-align:center; border-collapse:collapse; margin:10px 0px 10px">
-						<tr>
-							<td align="right">
-								<img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/gadventures_logo.gif" alt="G Adventures" width="200px" >
-							</td>
-						</tr>
-					</table>
-				</td>
-				<td style="background: #47268d; padding:0px"></td>
-			</tr>
-			-->
-			<tr> 
-	          <td style="background: #47268d; padding:0px"></td> 
-	          <td colspan="3" style="padding:18px 0px 10px 0px; background: #47268d; border-collapse:collapse"> 
-	            
-	            <table width="40%" style="margin:24px 0px 10px 0px; float:left; border-collapse:collapse;"> 
-	              <tbody>
-	                <tr> 
-	                  <!--td width="30" height="60" style=" #fff; color:#ffffff; font-size:25px; text-align: center">0</td--> 
-	                  <!--td width="2px"></td--> 
-	                  <!--td width="20px" style=" #fff; color:#ffffff; font-size:25px; text-align: center">7</td--> 
-	                  <td style="padding-left:0px; color: #fff; font-size: 17px">THE COUNTDOWN BEGINS!</td> 
-	                </tr> 
-	              </tbody>
-	            </table> 
-	        	
-	            <table width="40%" style="float:right; border-collapse:collapse; margin:10px 0px 10px"> 
-	              <tbody>
-	                <tr> 
-	                  <td align="right"> <img src="http://letsgo.gadventures.com/rs/110-AIL-152/images/gadventures_logo.gif" alt="G Adventures" width="200px"> </td> 
-	                </tr> 
-	              </tbody>
-	            </table> 
-	        	</td> 
-	          <td style="background: #47268d; padding:0px"></td> 
-	        </tr> 	
 		</table>
 	</body>
 </html>
